@@ -34,6 +34,12 @@ export default function Greeting() {
         <Diya size="small" delay={0.9} />
         <Diya size="small" delay={1.2} />
       </div>
+
+      <p className="contact reveal">
+        <a href="tel:+919985727322">+91 99857 27322</a>
+        <span className="contact-sep" aria-hidden="true">•</span>
+        <a href="mailto:sunhap1928@gmail.com">sunhap1928@gmail.com</a>
+      </p>
     </div>
   )
 }

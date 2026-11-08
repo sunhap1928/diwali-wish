@@ -206,6 +206,9 @@ main.visible .reveal:nth-child(8) {
 main.visible .reveal:nth-child(9) {
   transition-delay: 1.7s;
 }
+main.visible .reveal:nth-child(10) {
+  transition-delay: 1.9s;
+}
 
 .eyebrow {
   font-size: var(--fs-eyebrow);
@@ -328,6 +331,35 @@ main.visible .reveal:nth-child(9) {
   gap: clamp(0.6rem, 2vw, 1.6rem);
   margin-top: 2.4rem;
   flex-wrap: wrap;
+}
+
+.contact {
+  margin: 1.6rem 0 0;
+  font-size: 0.85rem;
+  color: var(--muted-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.contact a {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.contact a:hover,
+.contact a:focus-visible {
+  color: var(--gold-soft);
+  border-color: var(--gold-soft);
+}
+.contact a:focus-visible {
+  outline: 2px solid var(--gold-soft);
+  outline-offset: 3px;
+}
+.contact-sep {
+  color: var(--muted-dim);
 }
 
 /* ---------- Sound toggle ---------- */
