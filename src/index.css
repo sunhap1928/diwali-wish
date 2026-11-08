@@ -1,0 +1,40 @@
+:root {
+  --ink: #120b1e;
+  --ink-2: #1c1130;
+  --panel: rgba(28, 17, 48, 0.55);
+  --panel-edge: rgba(242, 181, 68, 0.18);
+  --gold: #f2b544;
+  --gold-soft: #f7d27a;
+  --ember: #e8743b;
+  --maroon: #7a1f3d;
+  --brand-blue: #3c86e8;
+  --paper: #fbf1de;
+  --muted: #bba9cf;
+  --muted-dim: #8572a1;
+
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100vh;
+}
+
+body {
+  background: radial-gradient(120% 90% at 50% -10%, #241536 0%, var(--ink) 55%, #0a0612 100%);
+  color: var(--paper);
+  font-family: 'Nunito', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+button {
+  font: inherit;
+}
